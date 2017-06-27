@@ -1,0 +1,27 @@
+Package: muensing
+Title: Data Handling And Powerpoint Creation
+Version: 1.0
+Authors@R: person("Juuso", "Nykänen", email = "juusonykanen@hotmail.com", role = c("aut", "cre"))
+Description: Functions for automatic data manipulation, plot creation and powerpoint creation
+Depends: R (>= 3.4.0)
+License: GNU GPLv3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr (>= 0.7.0),
+    tidyr (>= 0.6.3)
+Depends:
+    forcats (>= 0.2.0),
+    plyr (>= 1.8.4),
+    ggalt (>= 0.4.0),
+    scales (>= 0.4.1),
+    ggthemes (>= 3.4.0),
+    ggvis (>= 0.4.3),
+    lazyeval (>= 0.2.0),
+    RColorBrewer (>= 1.1),
+    stringr (>= 1.2.0),
+    utils,
+    rvg (>= 0.1.4),
+    officer (>= 0.1.4),
+    ggplot2 (>= 2.2.1)
+RoxygenNote: 6.0.1.9000
