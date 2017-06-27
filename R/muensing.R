@@ -1,6 +1,6 @@
 #' Calculates fontsize of value labels for barplots
 #'
-#' Calculates fontsize of value labels for barplots. Values found using trial and error.
+#' Calculates fontsize of value labels for barplots. Values the function gives were found using trial and error.
 #'
 #' @param nbars Number of bars in barplot
 #' @export
