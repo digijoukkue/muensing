@@ -1,8 +1,10 @@
-#'Calculates fontsize of value labels for barplots
+#' Calculates fontsize of value labels for barplots
 #'
-#'Calculates fontsize of value labels for barplots. Values found using trial and error.
+#' Calculates fontsize of value labels for barplots. Values found using trial and error.
 #'
-#'@param nbars Number of bars in barplot
+#' @param nbars Number of bars in barplot
+#' @export
+#' @examples
 #' CalculateFontSizeForBars()
 
 CalculateFontSizeForBars <- function(nbars) {
@@ -40,6 +42,8 @@ CalculateFontSizeForBars <- function(nbars) {
 #' @param dataFrame Contains filtered data, i.e. the data rows that will be used for plot.
 #' @param columnName Name of column containing subsets.
 #' @return dataFrame containing new column called rowcount that has counts for each unique value in original dataFrame.
+#' @export
+#' @examples
 #' CalculateNs()
 
 CalculateNs <- function(dataFrame, columnName) {
@@ -63,8 +67,10 @@ CalculateNs <- function(dataFrame, columnName) {
 #' Scale value have to be in a column called "Scale". The x value labels have to be in a colmun called "XLabels". 
 #' Answer percentages have to be in column called "pct". Verified that this function works with scale that has 
 #' an odd number of choices. May not work with a scale that has an even number of choices.
-#' @param dataFrame Contains columns Scale, XLabels, pct
 #' @return tidyDataPos A dataFrame containing top3 summary data
+#' @param dataFrame Contains columns Scale, XLabels, pct
+#' @export
+#' @examples
 #' CalculateTop3()
 
 CalculateTop3 <- function(dataFrame) {
@@ -82,6 +88,8 @@ CalculateTop3 <- function(dataFrame) {
 #' Summarizes percentage of answers according to a demography. E.g. Demography column is called gender, 
 #' containing male/female answers. Brand column contains different brands of beers. We get out a dataFrame 
 #' with beer brands: how many males knew the beer brand and how many females knew the beer brand.
+#' @export
+#' @examples
 #' CalculatePctsForDemog()
 
 CalculatePctsForDemog    <- function(weightedData, dataFrame, demography) {
@@ -114,8 +122,9 @@ CalculatePctsForDemog    <- function(weightedData, dataFrame, demography) {
 #' @param dataFrame The dataframe to be edited
 #' @param searchfor The value we want to replace
 #' @param replacement The value that will be used as replacement
-#'
 #' @return dataFrame in a form that is ready for plotting
+#' @export
+#' @examples
 #' ChangeValue()
 
 ChangeValue              <- function(dataFrame, searchfor, replacement) {
@@ -134,7 +143,9 @@ ChangeValue              <- function(dataFrame, searchfor, replacement) {
 #' 
 #' Checks if first column and first row of dataFrame contains zeroes and ones. If yes, it can be assumed that all of the data is zeroes and ones.
 #' Excludes column "weight".
-#' CheckZeroesAndOnes
+#' @export
+#' @examples
+#' CheckZeroesAndOnes()
 
 CheckZeroesAndOnes       <- function(dataFrame) {
   
@@ -158,6 +169,8 @@ CheckZeroesAndOnes       <- function(dataFrame) {
 #'
 #' @param dataFrame Two colmuns: first containing text, second containing values/weights
 #' @return zeroesAndOnesdf DataFrame in zeroes and ones form.
+#' @export
+#' @examples
 #' ConvertToZeroesAndOnes()
 
 ConvertToZeroesAndOnes   <- function(dataFrame) {
@@ -184,6 +197,8 @@ ConvertToZeroesAndOnes   <- function(dataFrame) {
 #' Checks if dataFrame contains column weight and adds rowcount column
 #' 
 #' Checks if dataFrame contains column weight. If not, it will add weight column containing 1 for each row. This function will also add a rowcount column containing ones to be used for nrow calculations.
+#' @export
+#' @examples
 #' CleanDataFrame()
 
 CleanDataFrame           <- function(dataFrame) {

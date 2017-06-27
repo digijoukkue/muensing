@@ -15,8 +15,10 @@ ChangeValue(dataFrame, searchfor, replacement)
 }
 \value{
 dataFrame in a form that is ready for plotting
-ChangeValue()
 }
 \description{
 Goes through all elements in a dataFrame and replaces what is being searched for with a replacement.
+}
+\examples{
+ChangeValue()
 }

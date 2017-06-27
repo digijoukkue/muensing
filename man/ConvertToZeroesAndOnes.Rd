@@ -12,9 +12,11 @@ ConvertToZeroesAndOnes(dataFrame)
 }
 \value{
 zeroesAndOnesdf DataFrame in zeroes and ones form.
-ConvertToZeroesAndOnes()
 }
 \description{
 Converts a dataFrame containing text into Zeroes and Ones
 Converts a dataFrame containing text into Zeroes and Ones. Dataframe should contain one column with text and another column with weights.
+}
+\examples{
+ConvertToZeroesAndOnes()
 }

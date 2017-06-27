@@ -7,9 +7,11 @@
 CalculateFontSizeForBars(nbars)
 }
 \arguments{
-\item{nbars}{Number of bars in barplot
-CalculateFontSizeForBars()}
+\item{nbars}{Number of bars in barplot}
 }
 \description{
 Calculates fontsize of value labels for barplots. Values found using trial and error.
+}
+\examples{
+CalculateFontSizeForBars()
 }

@@ -10,5 +10,7 @@ CalculatePctsForDemog(weightedData, dataFrame, demography)
 Summarizes percentage of answers according to a demography. E.g. Demography column is called gender, 
 containing male/female answers. Brand column contains different brands of beers. We get out a dataFrame 
 with beer brands: how many males knew the beer brand and how many females knew the beer brand.
+}
+\examples{
 CalculatePctsForDemog()
 }

@@ -13,10 +13,12 @@ CalculateNs(dataFrame, columnName)
 }
 \value{
 dataFrame containing new column called rowcount that has counts for each unique value in original dataFrame.
-CalculateNs()
 }
 \description{
 Calculate the sample size of dataFrame, i.e. How many times each unique value appears in columName. 
 E.g. a column called gender would contain Male / Female text. Counts number of males and number of 
 females. Returns result as a dataFrame.
+}
+\examples{
+CalculateNs()
 }

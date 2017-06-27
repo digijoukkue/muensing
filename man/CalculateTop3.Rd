@@ -11,10 +11,12 @@ CalculateTop3(dataFrame)
 }
 \value{
 tidyDataPos A dataFrame containing top3 summary data
-CalculateTop3()
 }
 \description{
 Scale value have to be in a column called "Scale". The x value labels have to be in a colmun called "XLabels". 
 Answer percentages have to be in column called "pct". Verified that this function works with scale that has 
 an odd number of choices. May not work with a scale that has an even number of choices.
+}
+\examples{
+CalculateTop3()
 }

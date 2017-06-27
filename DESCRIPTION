@@ -1,8 +1,8 @@
 Package: muensing
-Title: Data Handling And Powerpoint Creation
+Title: Data Handling
 Version: 1.0
 Authors@R: person("Juuso", "Nykänen", email = "juusonykanen@hotmail.com", role = c("aut", "cre"))
-Description: Functions for automatic data manipulation, plot creation and powerpoint creation
+Description: Helperfunctions for data handling
 Depends: R (>= 3.4.0)
 License: GNU GPLv3
 Encoding: UTF-8

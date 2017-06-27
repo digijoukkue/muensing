@@ -8,5 +8,7 @@ CleanDataFrame(dataFrame)
 }
 \description{
 Checks if dataFrame contains column weight. If not, it will add weight column containing 1 for each row. This function will also add a rowcount column containing ones to be used for nrow calculations.
+}
+\examples{
 CleanDataFrame()
 }

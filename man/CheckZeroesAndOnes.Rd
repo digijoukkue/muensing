@@ -9,5 +9,7 @@ CheckZeroesAndOnes(dataFrame)
 \description{
 Checks if first column and first row of dataFrame contains zeroes and ones. If yes, it can be assumed that all of the data is zeroes and ones.
 Excludes column "weight".
-CheckZeroesAndOnes
+}
+\examples{
+CheckZeroesAndOnes()
 }
